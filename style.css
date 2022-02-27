@@ -241,6 +241,7 @@ h2 {
      padding: 180px 4%;
      align-items: center;
      justify-content: space-between;
+     
  }
  .ImagePrincipale {
      padding-top: 0px;
@@ -434,6 +435,10 @@ h2 {
 
     }
 
+    /* .ImagePrestation2  {
+            margin-right: 50px;}
+        */
+
 
 }
 
@@ -444,6 +449,7 @@ h2 {
   .presentation{
       background-color: rgb(0, 0, 0);
       padding-bottom: 40px;
+      padding-left: 8vw;
       
 
   }
@@ -459,7 +465,8 @@ h2 {
 
 }
 .blocseparateur p {
-    padding: 2.5em;
+    padding-top: 2.5em;
+    padding-bottom: 2.5em;
 }
 
 .presentation  blocseparateur{
@@ -472,6 +479,7 @@ h2 {
 
   .prestations{
       display: flex;
+      flex-direction: row-reverse;
       /* align-items: center; */
       justify-content: space-between;
       padding-bottom: 200px;
@@ -491,7 +499,7 @@ h2 {
        border-radius: 10px; 
       opacity: 1;
       margin-left: 20px;
-      margin-right: 20px;
+      margin-right: 40px;
       /* margin-top: 700px; */
       border: 1px solid #FFFFFF; 
       
@@ -504,8 +512,9 @@ h2 {
       padding-right: 100px; */
       height: 2000px;
       opacity: 1;
-      margin-left: 20px;
-      margin-right: 20px;
+      /* margin-left: 20vw; */
+      margin-right: 2vw ;
+      
       /* -we-webkit-box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.13); 
       box-shadow: 0px 0px 0px 1px rgba(255,255,255,0.13); */
 
@@ -527,11 +536,25 @@ h2 {
 
     .ImagePrestation2 h4 {
         font-size: 3em;
+        padding-top: 0;
+        margin-top: 0;
+        margin-bottom: 0;
+        color: var(--vert);
+      
         
     }
+    .ImagePrestation2 p {
+        font-size: 1em;
+        
+        line-height: 2.3;
+        
+    }
+
+
       
     .ImagePrestation2 memoria {
         text-align: center ;
+        
         
     }
     .blocleft h3 {
